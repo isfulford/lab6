@@ -23,7 +23,7 @@ namespace lab6
         public string GetEmail(){
             return email;
         }
-        private void SetEmail(string tempEmail){
+        public void SetEmail(string tempEmail){
             this.email = tempEmail;
         }
         public override string ToString(){
