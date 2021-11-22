@@ -14,7 +14,7 @@ namespace lab6
         public string GetName(){
             return name;
         }
-        private void SetName(string tempName){
+        public void SetName(string tempName){
             this.name = tempName;
         }
         public void SetGender(char tempGender){

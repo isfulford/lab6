@@ -13,13 +13,13 @@ namespace lab6
         public string GetIsbn(){
             return isbn;
         }
-        private void SetIsbn(string tempIsbn){
+        public void SetIsbn(string tempIsbn){
             this.isbn = tempIsbn;
         }
         public string GetTitle(string tempTitle){
             return title;
         }
-        private void SetTitle(string tempTitle){
+        public void SetTitle(string tempTitle){
             this.title = tempTitle;
         }
         public Author GetAuthor(){
